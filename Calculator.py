@@ -1,4 +1,5 @@
-def main():
+x=1
+while x>=1:
     print("Welcome to calculator")
     print("For addition type add")
     print("For subtraction type subtract")
@@ -17,9 +18,4 @@ def main():
         print(num1,"/",num2,"=",num1/num2)
     else:
         print("Incorrect input")
-    x= input("To restart please say yes or no to exit:")
-    if x == "yes":
-        main()
-    else:
-        exit
-main()
+    x=x+1
